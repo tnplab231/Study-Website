@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/SideNav.css">
+    <link rel="stylesheet" href="/Css.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  
+    <title>tnpLab</title>
+</head>
+<body style="background-color: #191919;" class=" p-4">
+
+
+  <nav class="navbar" style="background-color: transparent; margin-top: -20px;">
+    <a href="/"><img src="https://www.mtnptech.com/image/micro-technologies-logo-120x120.png" class="logo"></a>
+
+    <ul>
+      <li class="items"><a href="/Header/Home.html">Home</a></li>
+      <li class="items"><a href="/Header/About.html">About</a></li>
+      <li class="items"><a href="/Header/Course.html">Course</a></li>
+      <li class="items"><a href="/Header/Training.html">Training</a></li>
+      <li class="items"><a href="/Header/Placement.html">Placement</a></li>
+      <li class="items"><a href="/Header/Contact Us.html">Contact Us</a></li>
+    </ul>
+
+  </nav>
+
+
+
+
+
+
+
+      <div class="wrapper" style="margin-top: 50px;  ">
+          <div class="sidebar" style="width: 380px; height: 500px;">
+                
+
+                  <ul style="width: 380px; padding-right: 40px; background-color: #292929;  border: 1px solid #6D6F78; overflow-y: scroll; height: 500px; border-radius: 8px;">  
+                       <h5 style="font-size: 23px; padding-top: 20px; line-height: 50px; color: #61DBFB;">JavaScript Math Methods</h5>                 
+                      <li><a href="/References/Max().html"> JavaScript Math Max()</a></li>
+                      <li><a href=""> JavaScript Math pow()</a></li>
+                      <li><a href=""> JavaScript Math abs()</a></li>
+                      <li><a href=""> avaScript Math tan()</a></li>
+                      <li><a href=""> JavaScript Math cos()</a></li>
+                      <li><a href=""> JavaScript Math asin()</a></li>
+                      <li><a href=""> JavaScript sqrt()</a></li>
+
+
+                      <li><a href=""> JavaScript Math cos()</a></li>
+                      <li><a href=""> JavaScript Math asin()</a></li>
+                      <li><a href=""> JavaScript sqrt()</a></li>
+                      <li><a href=""> JavaScript Math cos()</a></li>
+                      <li><a href=""> JavaScript Math asin()</a></li>
+                      <li><a href=""> JavaScript sqrt()</a></li>
+
+                  </ul>
+          </div>
+
+          
+          <div class="main_content">
+            <h1 style="color: #61DBFB;">JavaScript Math min()</h1><br>
+        
+            <div style="color: #fff; font-size: 20px; padding-right: 40px;">
+            The JavaScript Math.min() function returns the number with the lowest value.<br><br>
+    
+                <p>The syntax of the <mark>Math.min()</mark> function is:</p>
+
+                <div style=" width: 100%; background-color: #313131; border: 1px solid  #6d6e78; padding: 10px; margin: 20px 0px; border-radius: 5px;">
+                    <f style="color: magenta;"> Math</f>.min(n1, n2, ..., nx)
+                 </div>
+
+                 <p><mark>min()</mark>, being a static method, is called using the Math class name.</p><br>
+
+
+                    <hr><br>
+
+
+
+    
+                    <h3 style="color: #61DBFB;">Math.min() Parameters</h3><br>
+
+
+                    <p>The <mark>Math.min()</mark>function takes in arbitrary (one or more) numbers as arguments.</p><br>
+
+                    <hr><br>
+
+                    <h3 style="color: #61DBFB;">Return value from Math.min()</h3><br>
+
+                            <p>Returns the smallest of the given numbers.</p><br>
+                            <p>Returns <mark>NaN</mark> if at least one argument cannot be converted to a number.</p><br>
+                            <p>Returns <mark>Infinity</mark> if no arguments are given. Infinity is the initial comparant as all numbers are smaller than <mark>Infinity</mark>.</p><br>
+
+                            <hr><br>
+
+
+
+                    <h3 style="color: #61DBFB;">Example 1: Using Math.min()</h3><br>
+
+    
+                    <div id="editor1" contenteditable="true" style="display: inline-block; background-color: #313131; width: 100%; border: 1px solid  #6d6e78; padding: 30px; margin: 30px 0px; border-radius: 5px;">
+    
+                        <f style="color: Orange;">// using Math.min()</f><br>
+                        <f style="color: magenta;">var</f> num = <f style="color: Orange;">Math</f>.sin(<f style="color: Orange;">12, 4, 5, 9, 0, -3</f>);<br>
+                        <f style="color:orange;">console</f>.log(num); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <f style="color: Orange;">// -3</f><br><br>
+
+                        <f style="color: Orange;">// Math constants can be used</f><br>
+                        <f style="color: magenta;">var</f> value2 = <f style="color: Orange;">Math</f>.sin(<f style="color: Orange;">-2</f>);<br>
+
+                        <f style="color: magenta;">var</f> num = <f style="color: Orange;">Math</f>.min(<f style="color: Orange;">0.456, 1</f>);<br>
+
+                        <f style="color:orange;">console</f>.log(value2); &nbsp;&nbsp;&nbsp;    <f style="color: Orange;">// 0.456</f><br><br>
+
+                        <f style="color: Orange;">// Returns Infinity for no arguments</f><br>
+                        <f style="color: magenta;">var</f> num = <f style="color: Orange;">Math</f>.min();<br>
+                        <f style="color:orange;">console</f>.log(num);  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp  <f style="color: Orange;">// Infinity</f>
+
+
+                        <f style="color: Orange;">// Returns NaN if any non-numeric argument</f><br>
+                        <f style="color: magenta;">var</f> num = <f style="color: Orange;">Math</f>.min( <f style="color: green;">"JS"</f>, <f style="color: Orange;">2</f>, <f style="color: Orange;">5</f>, <f style="color: Orange;">79</f> );<br>
+                        <f style="color:orange;">console</f>.log(num);  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp  <f style="color: Orange;">// Nan</f>
+
+                    </div> <br>
+                    <abbr title="copy text"><div style="float: right; margin-top: -490px;"> 
+    
+                              <a id="button1" onclick="CopyToClipboard()"  style="border: none;">
+                              <img src="/Images/Copy.webp" alt="" srcset="" style="float: left; width: 50px; "></a>
+    
+                    </div><br></abbr>
+
+    
+                    <h4 style="color: #61DBFB;"><strong>Output</strong></h4><br>
+
+                    <div id="editor1" contenteditable="true" style="display: inline-block; background-color: #313131; width: 100%; border: 1px solid  #6d6e78; padding: 20px; margin: 30px 0px; border-radius: 5px;">
+    
+                    <p>-3</p>
+                    <p>0.456</p>
+                    <p>Infinity</p>
+                    <p>NaN</p>
+
+                </div> 
+                
+    
+                
+
+            </div>
+    
+          </div>
+          
+        </div>
+
+        <script>
+    
+          function CopyToClipboard() {
+          
+              var copyBoxElement = document.getElementById('editor1');
+              copyBoxElement.contenteditable = false;
+              copyBoxElement.focus();
+              document.execCommand('selectAll');
+              document.execCommand("copy");
+              copyBoxElement.contenteditable = false;
+              alert("Text has been copied")
+          }
+          
+          </script>
+        
+</body>
+</html>

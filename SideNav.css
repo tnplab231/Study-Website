@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: nunito;
+}
+
+
+.wrapper{
+    display: flex;
+    position: relative;
+    margin-top: 100px;
+}
+
+.wrapper .sidebar{
+    position: static;
+    width: 500px;
+    border-radius: 10px;
+    margin-left: 50px;
+    height: 20%;
+    background: #292929;
+    border: 1px solid #6D6F78;
+    padding-right:30px;
+}
+
+.wrapper .sidebar h4{
+    color: #fff; 
+    padding: 15px; 
+    margin-left: 30px; 
+    color: #61DBFB;
+}
+
+.wrapper .sidebar h2{
+    color: #ffff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li{
+    padding: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-top: 1px solid rgba(225, 225, 225, 0.05);
+}
+
+.wrapper .sidebar ul li a{
+    color: #bdb847;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.wrapper .sidebar ul li:hover{
+    background-color: #222222;
+}
+
+
+
+.wrapper .main_content{
+    width: 100%;
+    margin-left: 50px;
+
+}
+
+.wrapper .main_content .info{
+    margin: 20px;
+    color: #717171;
+    line-height: 25px;
+}
+
+
+.wrapper .sidebar .current{
+    color: yellow;
+}
+
+
+
+.wrapper #Reference-div{
+    width: 380px; 
+    height: 500px;
+}
+
+.wrapper #Reference-ul{
+    width: 380px; 
+    padding-right: 40px; 
+    background-color: #292929;  
+    border: 1px solid #6D6F78; 
+    overflow-y: scroll; 
+    height: 500px; 
+    border-radius: 8px;
+}
+
+.wrapper #Reference-ul h5{
+    font-size: 23px; 
+    padding-top: 20px; 
+    line-height: 50px; 
+    color: #61DBFB;
+}
+
+
+
+
+
+
+/* TUTORIAL */
+
+#navs{
+    background-color: transparent; 
+    margin-top: -20px;
+}
+
+
+
+#navs2{
+    display: flex;
+}
+
+#navs2 .navs2-img{
+    width: 348px; 
+    padding: 50px;
+}
+
+
+#navs2 .navs2-h2{
+    font-size: 50px; 
+    line-height: 68.2px; 
+    color: #61DBFB; 
+    margin-top: 48px; 
+    padding-left: 20px;
+}
+
+#navs2 .navs2-p{
+    font-size: 28px; 
+    line-height: 40.2px; 
+    color: #A9A8A8; 
+    margin-top: 50px; 
+    padding:10px 100px 10px 20px;
+}
+
+/* Example */
+
+#Java{
+    display: flex;
+}
+
+#Java img{
+    width: 348px; 
+    padding: 50px;
+}
+
+#Java h2{
+    font-size: 50px; 
+    line-height: 68.2px; 
+    color: #61DBFB; 
+    margin-top: 48px; 
+    padding-left: 20px;
+}
+
+
+#Java p{
+    font-size: 28px; 
+    line-height: 40.2px; 
+    color: #A9A8A8; 
+    margin-top: 50px; 
+    padding:10px 100px 10px 20px;
+}
+
+#navs3{
+    background-color: #191919;
+}
+
+#navs3 .navs3-a{
+    font-size: 23px; 
+    color: white;
+}
+
+
+#navs3 #navs3-a{
+    font-size: 23px; 
+}
+
+
+.tutorial-row{
+    display: flex; 
+}
+
+.tutorial-row #list-example{
+    margin-top: 80px;
+    height: 1500px;
+    margin-left: 20px;
+}
+
+.tutorial-row #navs3-div1{
+    background-color: #292929; 
+    margin-left: 40px; 
+    border: 1px solid #38383b; 
+    border-radius: 5px;
+}
+
+.tutorial-row .list-group-item1{
+    background-color: #292929; 
+    font-size: 20px; 
+    line-height: 40.92px;
+    border-radius: 28px 28px 0px 0px; 
+    color: #FFC107;
+}
+
+.tutorial-row .list-group-item-action{
+    background-color: #292929; 
+    font-size: 20px; 
+    line-height: 40.92px; 
+    color: #ffff;
+}
+
+.tutorial-row .list-group-item-action:hover{
+    background-color: #282828; 
+    color: #ffff;
+
+}
+
+.tutorial-row #sticky{
+    width: 00px; 
+    position: sticky; 
+    top: 10px; 
+    margin-top: 80px;
+}
+
+
+.tutorial-row #sticky video{
+    width: 400px; 
+    border: 1px solid #222121;
+}
+
+.tutorial-row #list-example2{
+    display: inline-block; 
+    margin-top: 80px;
+    width: 700px; 
+    margin-left: 70px;
+}
+
+
+.tutorial-row #list-example2 #Introduction{
+    border: 1px solid #38383b; 
+    border-radius: 5px 5px 5px 5px;
+}
+
+.tutorial-row #list-example2 .groups{
+    border: 1px solid #38383b; 
+    margin-top: 50px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+.tutorial-row #list-example2 #Intro-h3{
+    border-bottom: 1px solid #38383b; 
+    color: white; 
+    padding-left: 30px; 
+    font-weight: 400;
+    padding: 10px;
+}
+
+.tutorial-row #list-example2 #Intro-div{
+    padding-left: 30px;
+}
+
+
+.tutorial-row #list-example2 .Intro-a{
+    display: block; 
+    padding: 10px; 
+    text-decoration: none; 
+    color: #A9A8A8;
+}
+
+.tutorial-row #list-example2 .Intro-a:hover{
+    display: block; 
+    padding: 10px; 
+    text-decoration: none; 
+    color: #949494;
+}
+
+

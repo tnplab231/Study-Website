@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/SideNav.css">
+    <link rel="stylesheet" href="/Css.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  
+    <title>tnpLab</title>
+</head>
+
+<body id="body" class=" p-4">
+
+
+
+  <nav id="navs" class="navbar">
+    <a href="/"><img src="https://www.mtnptech.com/image/micro-technologies-logo-120x120.png" class="logo"></a>
+
+    <ul>
+      <li class="items"><a href="/Header/Home.html">Home</a></li>
+      <li class="items"><a href="/Header/About.html">About</a></li>
+      <li class="items"><a href="/Header/Course.html">Course</a></li>
+      <li class="items"><a href="/Header/Training.html">Training</a></li>
+      <li class="items"><a href="/Header/Placement.html">Placement</a></li>
+      <li class="items"><a href="/Header/Contact Us.html">Contact Us</a></li>
+    </ul>
+
+  </nav>
+
+
+  <div class="wrapper" >
+    <div class="sidebar">
+          <h4>JavaScript Examples</h4>
+
+          <ul>                    
+            <li><a href="/Examples/Add Two Numbers.html"> Convert Kilometers to Miles</a></li>
+            <li><a href="/Examples" target="_blank"> Find The Square Root</a></li>
+            <li><a href="/Header/.html"> Swap Two Variables</a></li>
+            <li><a href="/Header/.html"> Work With Constants</a></li>
+            <li><a href="/Header/"> Write to console</a></li>
+            <li><a href="/Header/"> Calculate the Area of a Triangle</a></li>
+            <li><a href="/Header/"> Convert Celsius to Fahrenheit</a></li>
+
+        </ul>
+        
+    </div>
+
+    <div class="main_content">
+        <h1 style="color: #61DBFB;">JavaScript Program to Add Two Numbers</h1><br>
+        
+        <div style="color: #fff; font-size: 20px; padding-right: 40px;">
+        <p>In this example, you will learn how to add two numbers and display their sum using various methods in JavaScript.<br><br>
+
+                To understand this example, you should have the knowledge of the following <strong style="color: #ffc107;">JavaScript Programming</strong> topics:</p><br>
+
+                <hr><br>
+
+
+                <ul style="color: #ffc107;" type="dics">
+                    <li>1. JavaScript Variables and Constants</li>
+                    <li>2. JavaScript Operators</li>
+                    
+                </ul><br>
+
+                <hr><br>
+
+                <p>We use the + operator to add two or more numbers.</p><br>
+
+                <h3 style="color: #61DBFB;">Example 1: Add Two Numbers</h3><br>
+                
+                
+                <div id="editor1" contenteditable="true" style="display: inline-block; background-color: #313131; width: 100%; border: 1px solid  #6d6e78; padding: 30px; margin: 30px 0px; border-radius: 5px;">
+
+                    <f style="color: magenta;">const</f> num1 =  <f style="color:orange;">5</f>;<br>
+                    <f style="color: magenta;">const</f> num2 =  <f style="color:orange;">3</f>;<br>
+
+
+                 
+                    <f style="color:rgb(247, 216, 160);">// add two numbers</f><br>
+                    <f style="color: magenta;">const</f> sum = num1 + num2;<br>
+                    
+                    <f style="color:rgb(247, 216, 160);">// display the sum</f><br>
+                    console.log( <f style="color: green;">'The sum of '</f> + num1 + <f style="color: green;">' and ' </f>+ num2 + <f style="color: green;">' is: '</f> + sum);<br>
+
+                  
+                    
+                </div> 
+                <div style="float: right; margin-top: -250px;"> 
+
+                          <a id="button1" onclick="CopyToClipboard()"  style="border: none;">
+                          <img src="/Images/Copy.webp" alt="" srcset="" style="float: left; width: 50px; "></a>
+
+                </div>
+
+                <h4 style="color: #61DBFB;"><strong>Output</strong></h4><br>
+               
+                <div  style=" width: 100%; background-color: #313131; border: 1px solid #6d6e78; padding: 10px; border-radius: 5px;">
+                   <p>The sum of 5 and 3 is: 8</p>
+                </div><br>
+
+
+                <hr>
+
+        </div>
+
+    </div>
+
+
+    <script>
+    
+    function CopyToClipboard() {
+    
+        var copyBoxElement = document.getElementById('editor1');
+        copyBoxElement.contenteditable = false;
+        copyBoxElement.focus();
+        document.execCommand('selectAll');
+        document.execCommand("copy");
+        copyBoxElement.contenteditable = false;
+        alert("Text has been copied")
+    }
+    
+    </script>
+
+
+
+</body>
+</html>
